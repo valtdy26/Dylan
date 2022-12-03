@@ -1,0 +1,129 @@
+
+
+table,th,td{
+
+    border-style: dotted;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+
+}
+body{
+    font-family: "Verdana", Geneva, sans-serif;
+    background-image: url(../img/blue-tile.png);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#blue-p{
+
+
+    color:blue;
+}
+
+#blue-d{
+
+    background-color:blue;
+    position: sticky;
+    top: 0px;
+}
+
+p,h2{color:rebeccapurple;background-color:navy}
+h1{color:burlywood;background-color:antiquewhite}
+
+p{text-align:center; 
+    font-size:12px;
+    font-family:"Segoe UI", Tahoma, serif;
+}
+td{
+    font-size: 3vw;
+}
+#red-d{
+
+
+    background-color:firebrick;
+}
+#green-d{
+
+
+    background-color:chartreuse;
+}
+
+.menu{
+    background-color:navy;
+    border-color:black;
+    border-collapse:collapse;
+    text-align:center;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.menu th{
+    border:solid #000080;
+    padding:5px;
+}
+
+
+h2{
+    color:yellow;
+    border:solid;
+    border-width:50px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+}
+header {
+    background-color: #000080;
+    color : #FFFAFF;
+    text-align: center;
+    font-size: 50px;
+    font-size: 50px;
+    border: 3px solid #FFFAFF;
+}
+
+footer{
+    background-color:#000080;
+    color:#FFFAFF;
+    font-size: 12px;
+    border: 3px solid #FFFAFF;
+    padding-left: 5px;
+}
+.profile{
+    background: color #3e92cc;
+    text-align: center;
+}
+.even-row{
+    background-color:#5764A5
+}
+a:hover {
+    color: blue;
+}
+.dropdown{
+    display: inline-block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #FFFAFF;
+    color:#000080;
+    padding:5px;
+    box-shadow: 5px 5px 10px black;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.active{
+    background-color:lightcoral;
+}
+a{
+    color:navy;
+    text-decoration:none ;
+}
